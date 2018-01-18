@@ -2,7 +2,7 @@
   "name": "@pandacreative/haxe-module-installer",
   "version": "1.0.1",
   "description": "Install haxe modules through npm",
-  "main": "install.js",
+  "bin": "./src/install.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://gitlab.com/hacksawgaming/haxe-module-installer#README",
   "devDependencies": {
-    "@pandacreative/gitlab-ci-releaser": "^1.5.8"
+    "@pandacreative/gitlab-ci-releaser": "^1.5.8",
+    "fs-extra": "^5.0.0"
   }
 }
