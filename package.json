@@ -1,6 +1,6 @@
 {
   "name": "@pandacreative/haxe-module-installer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Install haxe modules through npm",
   "main": "install.js",
   "scripts": {
