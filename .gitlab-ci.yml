@@ -1,0 +1,27 @@
+image: lbergman/haxedev
+
+before_script:
+  - npm i --unsafe-perm
+
+stages:
+  - test
+  - release
+
+test:
+  stage: test
+  script:
+    - npm test
+
+package_release:
+  stage: release
+  script:
+    - $(npm bin)/gitlab-ci-releaser --npm
+  only:
+    - master
+
+package_rc:
+  stage: release
+  script:
+    - $(npm bin)/gitlab-ci-releaser --npm --preid rc
+  only:
+    - develop
