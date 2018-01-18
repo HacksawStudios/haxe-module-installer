@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://gitlab.com/hacksawgaming/haxe-module-installer/issues"
   },
-  "homepage": "https://gitlab.com/hacksawgaming/haxe-module-installer#README"
+  "homepage": "https://gitlab.com/hacksawgaming/haxe-module-installer#README",
+  "devDependencies": {
+    "@pandacreative/gitlab-ci-releaser": "^1.5.8"
+  }
 }
