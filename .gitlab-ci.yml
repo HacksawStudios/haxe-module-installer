@@ -4,13 +4,7 @@ before_script:
   - npm i --unsafe-perm
 
 stages:
-  - test
   - release
-
-test:
-  stage: test
-  script:
-    - npm test
 
 package_release:
   stage: release
