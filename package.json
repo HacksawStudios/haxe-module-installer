@@ -1,6 +1,6 @@
 {
   "name": "haxe-module-installer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Install haxe modules through npm",
   "main": "install.js",
   "scripts": {
