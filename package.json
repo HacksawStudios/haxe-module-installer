@@ -1,5 +1,5 @@
 {
-  "name": "@pandacreative/haxe-module-installer",
+  "name": "@hacksawstudios/haxe-module-installer",
   "version": "1.0.3",
   "description": "Install haxe modules through npm",
   "bin": "./src/install.js",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://gitlab.com/hacksawgaming/haxe-module-installer#README",
   "devDependencies": {
-    "@pandacreative/gitlab-ci-releaser": "^1.5.8",
+    "@hacksawstudios/gitlab-ci-releaser": "^1.5.9",
     "fs-extra": "^5.0.0"
   }
 }
